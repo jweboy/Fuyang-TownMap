@@ -3,7 +3,6 @@ import React, {
 } from 'react';
 import './index.css';
 import Message from './Message';
-import NavigatorBtn from './NavigatorBtn';
 
 class MsgBox extends Component {
   constructor(props) {
@@ -14,9 +13,9 @@ class MsgBox extends Component {
     };
   }
   componentWillReceiveProps(nextProps) {
-    console.info(nextProps);
+    // console.info(nextProps);
     this.setState({
-        msgObj:nextProps.list[nextProps.index]
+        msgObj:nextProps.currMsg
     });
   }
 
@@ -26,13 +25,13 @@ class MsgBox extends Component {
     } = this.state;
 
     const {
-      isShow
+      isShow,
+      closeCallBack
     } = this.props;
 
     return (
-        <div className={isShow === true ? "msg-box card-move" : "msg-box"}>
-            <Message msg={msgObj}/>
-            <NavigatorBtn msg={msgObj}/>
+        <div className={isShow === true ? "msg-box card-move-in" : "msg-box card-move-out"}>
+            <Message msg={msgObj} closeCallBack={closeCallBack}/>
         </div>
     );
   }

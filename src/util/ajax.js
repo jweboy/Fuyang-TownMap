@@ -9,8 +9,8 @@ module.exports = {
             errFn(xhr.status, "当前网络状态异常");
         };
         xhr.onload = function() {
-            console.log(param.url + ":" + xhr.responseText);
-            errFn(xhr.responseText);
+            // console.log(param.url + ":" + xhr.responseText);
+            succFn(xhr.responseText);
         };
         xhr.ontimeout = function() {
             errFn(xhr.status, "网络超时，请检查网络");

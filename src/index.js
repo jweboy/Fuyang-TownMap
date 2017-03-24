@@ -5,6 +5,7 @@ import {
 
 import App from './container/App';
 
-render( < App / > ,
+render(
+    <App /> ,
     document.getElementById('root')
 );
