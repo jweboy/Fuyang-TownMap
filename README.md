@@ -9,6 +9,6 @@
 
         npm run buid / cnpm run buid
 
-## 删除node_modules目录(手动删除会很慢)
+## 删除node_modules目录 (手动删除会很慢)
 
         npm run clean:modules / cnpm run clean:modules
