@@ -7,8 +7,16 @@
     z-index: 100;
     background: #fff;
     border-top: 1px solid #eaeaea;
+    overflow-x: hidden
 }
-
+.tips{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    color: #f00;
+    font-size: 12px;
+    z-index:50
+}
 .poibox {
     padding: 15px 5px;
     overflow: hidden;
@@ -59,13 +67,24 @@ display: -webkit-box;
 
 
 /*land-map*/
-
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden
+}
 .land-map {
     width: 100%;
     height: 100%;
     position: absolute;
+    top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     background: url('../../imgs/map.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -74,10 +93,12 @@ display: -webkit-box;
 .land-map .land {
     display: block;
     position: absolute;
-    width: 6%;
+    width: 5%;
     height: 3%;
 }
-
+.land-map .land[data-index="27"], .land-map .land[data-index="26"], .land-map .land[data-index="30"] {
+    width: 4%
+}
 .land-map .land .logo {
     width: 100%;
 }
@@ -152,4 +173,8 @@ display: -webkit-box;
 .map-move-out {
     transform: translateY(145px);
     transition: all 350ms ease-out;
+}
+
+.hidden{
+    display: none;
 }

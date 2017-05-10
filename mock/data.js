@@ -2,8 +2,8 @@ module.exports = {
     list: [{
         id: 7,
         name: '长兰村',
-        coordX: '8%',
-        coordY: '32%',
+        coordX: '9%',
+        coordY: '33%',
         desc: '这是长兰村的描述',
     }, {
         id: 2,
@@ -14,32 +14,34 @@ module.exports = {
     }, {
         id: 5,
         name: '马弓村',
-        coordX: '20%',
+        coordX: '21%',
         coordY: '19%',
         desc: '这是马弓村的描述',
-    }, {
-        id: 100,
-        name: '湘河村',
-        coordX: '5%',
-        coordY: '0%',
-        desc: '这是湘河村的描述',
-    }, {
+    }, 
+    // {
+    //     id: 100,
+    //     name: '湘河村',
+    //     coordX: '5%',
+    //     coordY: '0%',
+    //     desc: '这是湘河村的描述',
+    // }, 
+    {
         id: 6,
         name: '湘主村',
-        coordX: '36.5%',
-        coordY: '22%',
+        coordX: '37%',
+        coordY: '23%',
         desc: '这是湘主村的描述',
     }, {
         id: 9,
-        name: '元村',
-        coordX: '13%',
+        name: '元村村',
+        coordX: '13.5%',
         coordY: '43%',
         desc: '这是元村的描述',
     }, {
         id: 8,
         name: '潘堰村',
-        coordX: '31%',
-        coordY: '36%',
+        coordX: '31.5%',
+        coordY: '36.5%',
         desc: '这是潘堰村的描述',
     }, {
         id: 18,
@@ -56,14 +58,14 @@ module.exports = {
     }, {
         id: 13,
         name: '昌东村',
-        coordX: '93%',
+        coordX: '93.5%',
         coordY: '44%',
         desc: '这是昌东村的描述',
     }, {
         id: 11,
         name: '长垄村',
-        coordX: '2%',
-        coordY: '50%',
+        coordX: '3%',
+        coordY: '51%',
         desc: '这是长垄村的描述',
     }, {
         id: 14,
@@ -72,24 +74,26 @@ module.exports = {
         coordY: '54%',
         desc: '这是南津村的描述',
     }, {
-        id: 100,
-        name: '新登中学',
-        coordX: '56%',
-        coordY: '43%',
-        desc: '这是新登中学的描述',
-    }, {
+        id: 29,
+        name: '新登镇中学',
+        coordX: '55.5%',
+        coordY: '41%'
+    }, 
+    {
         id: 12,
         name: '塔山村',
         coordX: '49%',
         coordY: '48%',
         desc: '这是塔山村的描述',
-    }, {
+    }, 
+    {
         id: 25,
         name: '新登镇政府',
-        coordX: '57.5%',
-        coordY: '51%',
+        coordX: '51%',
+        coordY: '54%',
         desc: '这是新登镇政府的描述',
-    }, {
+    }, 
+    {
         id: 15,
         name: '双江村',
         coordX: '67%',
@@ -99,7 +103,7 @@ module.exports = {
         id: 16,
         name: '半山村',
         coordX: '4%',
-        coordY: '73%',
+        coordY: '74%',
         desc: '这是半山村的描述',
     }, {
         id: 17,
@@ -113,6 +117,31 @@ module.exports = {
         coordX: '15%',
         coordY: '60%',
         desc: '这是九儿村的描述',
+    },{
+        id: 26,
+        name: '富阳汪木英中医骨伤医院',
+        coordX: '59.5%',
+        coordY: '50.5%'
+    },{
+        id: 27,
+        name: '富阳区第二人民医院',
+        coordX: '57.5%',
+        coordY: '46%'
+    },{
+        id: 28,
+        name: '双联村',
+        coordX: '87.5%',
+        coordY: '71%'
+    },{
+        id: 30,
+        name: '新登中学',
+        coordX: '56%',
+        coordY: '52.5%'
+    },{
+        id: 31,
+        name: '新登镇幼儿园',
+        coordX: '51.5%',
+        coordY: '44%'
     }],
     viewList: [{
         id: 1,
@@ -142,8 +171,8 @@ module.exports = {
     }, {
         id: 19,
         name: '圣园碑林',
-        coordX: '45%',
-        coordY: '44.5%'
+        coordX: '38%',
+        coordY: '44%'
     }, {
         id: 12,
         name: '烈士陵墓',
@@ -184,5 +213,10 @@ module.exports = {
         name: '广福寺',
         coordX: '41%',
         coordY: '67.5%'
+    }, {
+        id: 25,
+        name: '富阳汪木英中医骨伤医院',
+        coordX: '10%',
+        coordY: '15%'
     }]
 }
